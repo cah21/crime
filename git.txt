@@ -1,0 +1,16 @@
+echo "# framework1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tianaandrianina/framework1.git
+git push -u origin master
+
+echo "#crime" >> README.md
+git remote add origin https://github.com/tianaandrianina/framework1.git
+
+echo "# crimes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/andryfavo/crimes.git
+git push -u origin master
